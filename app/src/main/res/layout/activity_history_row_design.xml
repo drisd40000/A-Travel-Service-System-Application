@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="2dp"
+    android:id="@+id/mainLayout"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#34ff"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+
+        >
+        <TextView
+            android:id="@+id/lhrd_busid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="234"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/lhrd_busname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Welcome"/>
+        <TextView
+            android:id="@+id/lhrd_busnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lhrd_busname"
+            android:paddingBottom="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="3213ag"/>
+        <TextView
+            android:id="@+id/lhrd_busstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/lhrd_busend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/lhrd_busdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/lhrd_busnum"
+            android:text="Date"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/lhrd_bustime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/lhrd_busdate"
+            android:text="time"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/lhrd_Optionsmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="50dp"
+            android:paddingTop="17dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="15dp"
+
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="40dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
